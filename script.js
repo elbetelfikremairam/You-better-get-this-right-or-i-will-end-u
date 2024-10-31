@@ -1,11 +1,11 @@
 const quizData=[ {
 
 question:"When did we meet?",
-a:"september 4th",
+a:"september 27th",
 b: "october 11th",
-c:"september 27th",
+c:"september 4th",
 d: "none",
-correct :"c",
+correct :"a",
 },
 
 { question:"When's my birthday?",
@@ -54,32 +54,32 @@ correct :"c",
     a: "2",
     b: "5",
     c: "1",
-    d: "You don't lke kids.",
+    d: "You don't llke kids.",
     correct: "d",
 },
 {
-question: "What was the name of the female lead in the Ethiopian skit we made?",
-a: "sara",
-b: "koki",
-c: "askalech",
-d: "merry",
-correct: "b",
+question: I think you are____________.",
+a: "Veryyy annoying.",
+b: "An absolutely scary guy.",
+c: "A sweet,kind,ambitious man who will succeed.",
+d: "going to burn your house down just because you can.",
+correct: "c",
 },
 {
-question: "What was the name of the female lead in the Ethiopian skit we made?",
-a: "sara",
-b: "koki",
-c: "askalech",
-d: "merry",
-correct: "b",
+question: "Do I ship Delena or Stelena?",
+a: "Delena, obviously.",
+b: "Stelena. You told me.",
+c: "Both of them.",
+d: "Neither.",
+correct: "d",
 },
 {
-question: "What was the name of the female lead in the Ethiopian skit we made?",
-a: "sara",
-b: "koki",
-c: "askalech",
-d: "merry",
-correct: "b",
+question: "How many teaspoons of sugar do i add to my tea?",
+a: "none, yuu weirdo.",
+b: "2.",
+c: "5, cuz u dream of having diabetes.",
+d: "2 and a half. You told me once.",
+correct: "a",
 },
 ]
 const quiz = document.getElementById("quiz");
@@ -141,9 +141,9 @@ submitBtn.addEventListener("click", () => {
         } else {
             let message = '';
             if (score <=2) {
-                message = "Unacceptable,Jed.";
+                message = "Unacceptable,Jed. ayiii try again. Dont stare at me.";
             } else if (score>2){
-                message = ":) Good job. Dm me to get reward.";
+                message = ":) Good job. Send a reward request in my DM.";
             }
 
             quiz.innerHTML = `
